@@ -42,7 +42,3 @@ plain_text2 = decrypt(cipher_text_2, private_key)
 print(plain_text.decode())
 print(plain_text2.decode())
 
-with open('plain_text1.txt', 'wb') as encrypted:
-    encrypted.write(plain_text)
-with open('plain_text2.txt', 'wb') as encrypted:
-    encrypted.write(plain_text2)
